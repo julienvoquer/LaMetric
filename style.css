@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(26, 25, 25);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: lightgray
+}
+
+.card-white {
+    width: 500px;
+    padding: 20px;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+    height: 500px;
+}
+
+.card-white img {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.card-black {
+    width: 500px;
+    padding: 50px;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.card-black img {
+    width: 100%;
+}
+
+.conteneurs {
+    display: flex;
+}
+
+.titre {
+text-align: center;
+}
+
+.card-blue {
+    padding: 15px;
+    border:1px solid lightgray; 
+    background-color: lightgray;
+    display: flex;
+}
+
+.card-blue {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bloc-1 {
+    width: 50%;
+}
+
+.bloc-2 {
+    width: 50%;
+}
+
+.bloc-3 {
+    width: 100%;
+}
+
+.menu-r {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+#id-white {
+    justify-content: flex-end;
+}
+
+.card-white2 {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 730px) {
+    .conteneurs {
+        display: block;
+    }
+    .card-white {
+        width: 85%;
+        margin-bottom: 50px;
+    }
+    .card-blue {
+        width: 90%;
+    }
+    .card-black {
+        width: 70%;
+    }
+    .titre {
+        width: 100%;
+    }
+    .menu-r {
+        width: 100%;
+    }
+}
